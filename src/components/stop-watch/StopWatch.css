@@ -1,0 +1,29 @@
+.timer p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #61dafb;
+}
+.timer{
+    margin-top: 30px;
+}
+
+.timer-btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timer-btns button{
+    padding: 12px 20px;
+    background-color: #f3f800;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.timer-btns button:disabled{
+    background-color: #ddd;
+    cursor: not-allowed;
+    color: #000;
+}
