@@ -1,0 +1,13 @@
+.currency-converter{
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+.currency-converter h1{
+    margin-bottom: 30px;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

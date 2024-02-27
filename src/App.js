@@ -1,7 +1,11 @@
 import './App.css';
+import CurrencyConverter from './components/currency-converter/CurrencyConverter';
 import DigitalClock from './components/digital-clock/DigitalClock';
 import PaginationTest from './components/pagination/PaginationTest';
+import QuoteGenerator from './components/random-quote-generator/QuoteGenerator';
+import ProgressBar from './components/step-progress-bar/ProgressBar';
 import StopWatch from './components/stop-watch/StopWatch';
+import TooltipTest from './components/tooltip/TooltipTest';
 
 function App() {
   return (
@@ -10,6 +14,10 @@ function App() {
      <PaginationTest></PaginationTest>
      <DigitalClock></DigitalClock>
      <StopWatch></StopWatch>
+     <ProgressBar></ProgressBar>
+     <QuoteGenerator></QuoteGenerator>
+     <TooltipTest></TooltipTest>
+     <CurrencyConverter></CurrencyConverter>
     </div>
   );
 }
