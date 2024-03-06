@@ -2,7 +2,9 @@ import './App.css';
 import TipCalculator from './components/Tip-Calculator/TipCalculator';
 import CurrencyConverter from './components/currency-converter/CurrencyConverter';
 import DigitalClock from './components/digital-clock/DigitalClock';
+import DragAndDrop from './components/draganddrop/DragAndDrop';
 import FilterProducts from './components/filter-products/FilterProducts';
+import MusicPlayer from './components/musicplayer/MusicPlayer';
 import PaginationTest from './components/pagination/PaginationTest';
 import QuoteGenerator from './components/random-quote-generator/QuoteGenerator';
 import ProgressBar from './components/step-progress-bar/ProgressBar';
@@ -22,6 +24,8 @@ function App() {
       <CurrencyConverter></CurrencyConverter>
       <FilterProducts></FilterProducts>
       <TipCalculator></TipCalculator>
+      <MusicPlayer></MusicPlayer>
+      <DragAndDrop></DragAndDrop>
     </div>
   );
 }
